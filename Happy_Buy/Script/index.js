@@ -264,4 +264,17 @@ let new_arrival=[
 ]
 
 
+let count=0
+document.querySelector("#category").addEventListener("click",function(event){
+    event.preventDefault()
+    count++;
+    if(count%2==1){
+        document.querySelector("#category-click").style.display="block"
+    }else{
+        document.querySelector("#category-click").style.display="none"
+    }
+})
+
+
+
 console.log(moving_product[2].image)

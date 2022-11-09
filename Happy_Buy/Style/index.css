@@ -60,6 +60,10 @@ body{
     width: 40px;
   margin-top: 10px;
 }
+#last>#image>h4{
+    margin-top: 20px;
+    margin-left: 10px;
+}
 #navbar-child{
     height: 130px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -146,3 +150,44 @@ body{
     margin-bottom: 60px;
     color:#37474F ;
 }
+#category-click{
+    display: none;
+    background-color:white ;
+}
+#click{
+    display: none;
+    display: flex;
+    justify-content: space-evenly;
+   
+    
+}
+#click>div{
+  
+    width: 10%;
+}
+#click>div>a{
+    color: black;
+    padding-left: 40px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#click>div>ul>li{
+    list-style: none;
+   text-align: left
+    
+}
+
+.carousel .carousel-indicators li { 
+     background-color: grey;
+    
+}
+#myCarousel{
+    /* margin-top: 30px; */
+    margin: 30px 20px 20px 20px;
+}
+.glyphicon{
+      color: orange;
+}
+
+
+
