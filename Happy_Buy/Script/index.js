@@ -40,6 +40,11 @@ let moving_product=
     price:"1,499",
     rating: "3.5/5" ,
     discount:"flat 75% OFF"},
+    {image:"https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjM2NDA0XC9Vbmtub3duX25fM18xMjc0OTI1MjUxMl8yODAwMTM3NTcuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjozMjAsImhlaWdodCI6MzIwLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+    titlle:"Painting Stencils Ruler Drawig",
+    price:"1,499",
+    rating: "4.3/5" ,
+    discount:"upto 50% OFF"},
 ]
 let home_decor=[
     {image:"https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjM0MjU4L0JsdWVfbl8xXzEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjozMjAsImhlaWdodCI6MzIwLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
@@ -90,17 +95,17 @@ let home_decor=[
     rating: "3.8/5" ,
     discount:"flat 73% OFF"},
 
-    {image:"https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMyMTE2L0dvbGRfbl8xXzEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjozMjAsImhlaWdodCI6MzIwLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
-    titlle:"Astronut Pen Holder" ,
-    price:"2,999",
-    rating: "4.1/5" ,
-    discount:"flat 73% OFF"},
+    // {image:"https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMyMTE2L0dvbGRfbl8xXzEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjozMjAsImhlaWdodCI6MzIwLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+    // titlle:"Astronut Pen Holder" ,
+    // price:"2,999",
+    // rating: "4.1/5" ,
+    // discount:"flat 73% OFF"},
 
-    {image:"https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMyMTExL0JsYWNrX25fMV8xLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
-    titlle:"Nordic Dog Ornament" ,
-    price:"45,000",
-    rating: "3.9/5" ,
-    discount:"flat 53% OFF"},
+    // {image:"https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMyMTExL0JsYWNrX25fMV8xLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+    // titlle:"Nordic Dog Ornament" ,
+    // price:"45,000",
+    // rating: "3.9/5" ,
+    // discount:"flat 53% OFF"},
 
 ]
 
@@ -111,8 +116,8 @@ let ballet_flats=[
     rating: "3.6/5" ,
     discount:"flat 36% OFF"},
 
-    {image:"Women Hana Trend Green Ballet Flats",
-    titlle:"3,999" ,
+    {image:"https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjM1MzY4L09yYW5nZV8zNl8yX2NhcG9uZX5oYW5hfnRyZW5kfndvbWVufm9yYW5nZX5iYWxsZXR+fjZiNWQxMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    titlle:"Women Hana Trend Green Ballet Flats" ,
     price:"4,999",
     rating: "3.6/5" ,
     discount:"flat 27% OFF"},
@@ -174,11 +179,11 @@ let Keyboard=[
     rating: "5.0/5" ,
     discount:"flat 71% OFF"},
 
-    {image:"https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMyMTM0L1JlZF9uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
-    titlle:"Makeup Keyboard" ,
-    price:"11,299",
-    rating: "3.9/5" ,
-    discount:"flat 57% OFF"},
+    // {image:"https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMyMTM0L1JlZF9uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    // titlle:"Makeup Keyboard" ,
+    // price:"11,299",
+    // rating: "3.9/5" ,
+    // discount:"flat 57% OFF"},
 
     {image:"https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjI0Mzk1L0JsYWNrX25fMV9XaXJlZEtleWJvYXJkMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     titlle:"Mechanical Wired Keyboard" ,
@@ -277,4 +282,151 @@ document.querySelector("#category").addEventListener("click",function(event){
 
 
 
-console.log(moving_product[2].image)
+function displayData(data){
+data.forEach(function(elem){
+    let div=document.createElement("div")
+
+    let image=document.createElement("img")
+    image.src=elem.image
+    let title=document.createElement("p")
+    title.innerText=elem.titlle
+   let rating=document.createElement("p")
+   rating.innerText=elem.rating
+    rating.setAttribute("class","rat")
+    let i=document.createElement("i")
+     i.setAttribute("class","fa-sharp fa-solid fa-star")
+    rating.append(i)
+    let div2=document.createElement("div")
+    div2.setAttribute("class","child2")
+    let price=document.createElement("h4")
+     price.innerText=elem.price    
+     let disc=document.createElement("p")
+     disc.innerText=elem.discount
+     div2.append(price,disc)
+
+    div.append(image,title,rating,div2)
+    
+    document.querySelector("#fast-moving").append(div)
+
+
+})
+    
+    
+}
+
+displayData(moving_product)
+
+function displayData2(data){
+    data.forEach(function(elem){
+        let div=document.createElement("div")
+    
+        let image=document.createElement("img")
+        image.src=elem.image
+        let title=document.createElement("p")
+        title.innerText=elem.titlle
+       let rating=document.createElement("p")
+       rating.innerText=elem.rating
+        rating.setAttribute("class","rat")
+        let i=document.createElement("i")
+         i.setAttribute("class","fa-sharp fa-solid fa-star")
+        rating.append(i)
+        let div2=document.createElement("div")
+        div2.setAttribute("class","child2")
+        let price=document.createElement("h4")
+         price.innerText=elem.price    
+         let disc=document.createElement("p")
+         disc.innerText=elem.discount
+         div2.append(price,disc)
+    
+        div.append(image,title,rating,div2)
+        
+        document.querySelector("#home-decor").append(div)
+    
+    
+    })   
+    }
+    displayData2(home_decor)
+
+    function displayData3(data){
+        data.forEach(function(elem){
+            let div=document.createElement("div")
+        
+            let image=document.createElement("img")
+            image.src=elem.image
+            let title=document.createElement("p")
+            title.innerText=elem.titlle
+           let rating=document.createElement("p")
+           rating.innerText=elem.rating
+            rating.setAttribute("class","rat")
+            let i=document.createElement("i")
+             i.setAttribute("class","fa-sharp fa-solid fa-star")
+            rating.append(i)
+            let div2=document.createElement("div")
+            div2.setAttribute("class","child2")
+            let price=document.createElement("h4")
+             price.innerText=elem.price    
+             let disc=document.createElement("p")
+             disc.innerText=elem.discount
+             div2.append(price,disc)
+        
+            div.append(image,title,rating,div2)
+            
+            document.querySelector("#ballet-flats").append(div)
+        
+        
+        })   
+        }
+        displayData3(ballet_flats)
+
+function displayData4(data){
+      data.forEach(function(elem){
+        let div=document.createElement("div")      
+        let image=document.createElement("img")
+        image.src=elem.image
+        let title=document.createElement("p")
+        title.innerText=elem.titlle
+       let rating=document.createElement("p")
+       rating.innerText=elem.rating
+        rating.setAttribute("class","rat")
+        let i=document.createElement("i")
+         i.setAttribute("class","fa-sharp fa-solid fa-star")
+        rating.append(i)
+        let div2=document.createElement("div")
+        div2.setAttribute("class","child2")
+        let price=document.createElement("h4")
+         price.innerText=elem.price    
+         let disc=document.createElement("p")
+         disc.innerText=elem.discount
+         div2.append(price,disc)
+        div.append(image,title,rating,div2)   
+        document.querySelector("#Keyboards").append(div)           
+     })   
+ }
+displayData4(Keyboard)
+
+
+function displayData5(data){
+    data.forEach(function(elem){
+      let div=document.createElement("div")      
+      let image=document.createElement("img")
+      image.src=elem.image
+      let title=document.createElement("p")
+      title.innerText=elem.titlle
+     let rating=document.createElement("p")
+     rating.innerText=elem.rating
+      rating.setAttribute("class","rat")
+      let i=document.createElement("i")
+       i.setAttribute("class","fa-sharp fa-solid fa-star")
+      rating.append(i)
+      let div2=document.createElement("div")
+      div2.setAttribute("class","child2")
+      let price=document.createElement("h4")
+       price.innerText=elem.price    
+       let disc=document.createElement("p")
+       disc.innerText=elem.discount
+       div2.append(price,disc)
+      div.append(image,title,rating,div2)   
+      document.querySelector("#new-arrivals").append(div)           
+   })   
+}
+displayData5(new_arrival)
