@@ -5,6 +5,7 @@ let moving_product=
     price:"3,299",
     rating: "4.8/5" ,
     discount:"flat 67% OFF"},
+
     {image:"https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjE4MDYwL1doaXRlX25fMV8xLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
     titlle:"Peripage Thermal Printer" ,
     price:"3,999",
@@ -285,7 +286,10 @@ document.querySelector("#category").addEventListener("click",function(event){
 function displayData(data){
 data.forEach(function(elem){
     let div=document.createElement("div")
-
+    div.addEventListener("click",function(){
+        window.location.href="./product.html"
+        localStorage.setItem("currentItem",JSON.stringify(elem))
+    })
     let image=document.createElement("img")
     image.src=elem.image
     let title=document.createElement("p")
@@ -319,6 +323,10 @@ displayData(moving_product)
 function displayData2(data){
     data.forEach(function(elem){
         let div=document.createElement("div")
+        div.addEventListener("click",function(){
+            window.location.href="./product.html"
+            localStorage.setItem("currentItem",JSON.stringify(elem))
+        })
     
         let image=document.createElement("img")
         image.src=elem.image
@@ -350,6 +358,10 @@ function displayData2(data){
     function displayData3(data){
         data.forEach(function(elem){
             let div=document.createElement("div")
+            div.addEventListener("click",function(){
+                window.location.href="./product.html"
+                localStorage.setItem("currentItem",JSON.stringify(elem))
+            })
         
             let image=document.createElement("img")
             image.src=elem.image
@@ -380,7 +392,11 @@ function displayData2(data){
 
 function displayData4(data){
       data.forEach(function(elem){
-        let div=document.createElement("div")      
+        let div=document.createElement("div")  
+        div.addEventListener("click",function(){
+            window.location.href="./product.html"
+            localStorage.setItem("currentItem",JSON.stringify(elem))
+        })    
         let image=document.createElement("img")
         image.src=elem.image
         let title=document.createElement("p")
@@ -407,7 +423,11 @@ displayData4(Keyboard)
 
 function displayData5(data){
     data.forEach(function(elem){
-      let div=document.createElement("div")      
+      let div=document.createElement("div")
+      div.addEventListener("click",function(){
+        window.location.href="./product.html"
+        localStorage.setItem("currentItem",JSON.stringify(elem))
+    })      
       let image=document.createElement("img")
       image.src=elem.image
       let title=document.createElement("p")
