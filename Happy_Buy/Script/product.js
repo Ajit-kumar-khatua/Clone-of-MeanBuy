@@ -54,7 +54,7 @@ document.querySelector("#add-to-cart").addEventListener("click",function(){
     let title=product.titlle
     let price=product.price
     let cartObj={
-       image,title,price
+       image,title,price,quantity:"1"
     }
     if(cartArr.length==0){
         cartArr.push(cartObj)
