@@ -303,7 +303,7 @@ data.forEach(function(elem){
     let div2=document.createElement("div")
     div2.setAttribute("class","child2")
     let price=document.createElement("h4")
-     price.innerText=elem.price    
+     price.innerText="₹"+elem.price    
      let disc=document.createElement("p")
      disc.innerText=elem.discount
      div2.append(price,disc)
@@ -341,7 +341,7 @@ function displayData2(data){
         let div2=document.createElement("div")
         div2.setAttribute("class","child2")
         let price=document.createElement("h4")
-         price.innerText=elem.price    
+         price.innerText="₹"+elem.price    
          let disc=document.createElement("p")
          disc.innerText=elem.discount
          div2.append(price,disc)
@@ -376,7 +376,7 @@ function displayData2(data){
             let div2=document.createElement("div")
             div2.setAttribute("class","child2")
             let price=document.createElement("h4")
-             price.innerText=elem.price    
+             price.innerText="₹"+elem.price    
              let disc=document.createElement("p")
              disc.innerText=elem.discount
              div2.append(price,disc)
@@ -410,7 +410,7 @@ function displayData4(data){
         let div2=document.createElement("div")
         div2.setAttribute("class","child2")
         let price=document.createElement("h4")
-         price.innerText=elem.price    
+         price.innerText="₹"+elem.price    
          let disc=document.createElement("p")
          disc.innerText=elem.discount
          div2.append(price,disc)
@@ -441,7 +441,7 @@ function displayData5(data){
       let div2=document.createElement("div")
       div2.setAttribute("class","child2")
       let price=document.createElement("h4")
-       price.innerText=elem.price    
+       price.innerText="₹"+elem.price    
        let disc=document.createElement("p")
        disc.innerText=elem.discount
        div2.append(price,disc)
