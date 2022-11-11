@@ -7,6 +7,7 @@
     <title>login Page</title>
     <link rel="stylesheet" href="./Style/index.css">
     <link rel="stylesheet" href="./Style/login.css">
+    <script src="./Script/signup.js"></script>
 </head>
 <body>
     <div id="navbar">
@@ -153,3 +154,23 @@
      </div>   
 </body>
 </html>
+<script>
+    let signupArr=JSON.parse(localStorage.getItem("signup"))||[]
+    document.querySelector("form").addEventListener("submit",function(event){
+        event.preventDefault()
+        let email=document.querySelector("#email").value;
+        let pwd=document.querySelector("#pwd").value;
+        let cnf_pwd=document.querySelector("#cnfm-pwd").value
+        
+       if(email==""||pwd==""||cnf_pwd==""){
+        alert("Enter All the field")
+       }else if(pwd!==cnf_pwd){
+        alert("Enter Password Correctly")
+       }else{
+          let obj={email,pwd}
+          signupArr.push(obj)
+          localStorage.setItem("signup",JSON.stringify(signupArr))
+       }
+    })
+</script>
+

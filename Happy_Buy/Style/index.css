@@ -4,7 +4,10 @@ body{
    
 }
 #navbar{
-    position:sticky
+    position:fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
 }
 #upper_menu{
     display: flex;
@@ -185,8 +188,8 @@ body{
     
 }
 #myCarousel{
-    /* margin-top: 50%; */
-    margin: 30px 20px 20px 20px;
+    z-index: -2;
+    margin: 167px 20px 20px 20px;
 }
 .glyphicon{
       color: orange;
