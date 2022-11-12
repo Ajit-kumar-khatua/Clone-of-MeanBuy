@@ -1,0 +1,35 @@
+#navbar-child{
+    height: 80px;
+}
+#checkout-body{
+    width: 60%;
+    margin: 170px 20px 20px 100px;
+}
+#checkout-body>h2{
+    color: orange;
+}
+
+#checkout-body>form>input:nth-child(1),#checkout-body>form>input:nth-child(3){
+    height: 40px;
+    width: 60%;
+    margin-bottom: 30px;
+}
+#checkout-body>form>input:nth-child(7){
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+}
+#checkout-body>form>input:nth-child(8){
+    width: 80px;
+    height: 30px;
+    margin-left: 100px;
+}
+#checkout-body>form>input[type="submit"]{
+    height: 40px;
+    width: 60%;
+    background-color: orange;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+}

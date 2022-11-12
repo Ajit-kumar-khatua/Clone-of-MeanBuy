@@ -1,0 +1,48 @@
+#search-body{
+    display: flex;
+    margin-top: 200px;
+}
+#search-body>#child1{
+    height: auto;
+    width: 20%;
+    padding-left: 20px;
+}
+#search-body>#child2{
+    height: auto;
+    width: 80%;
+    padding-left: 40px;
+    
+}
+#search-body>#child2>#products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: auto;
+    gap: 15px;
+    margin-top: 20px;
+
+}
+#search-body>#child2>#products>div{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#search-body>#child2>#products>div>.rat{
+    text-align: right;
+    background-color: green;
+    color: white;
+    margin-left: 69%;
+    margin-right: 10%;
+    padding-right: 5%;
+    border-radius: 5px;
+}
+#search-body>#child2>#products>div>p{
+    margin-left: 20px;
+}
+#search-body>#child2>#products>div h4{
+    margin-left: 30px;
+}
+#search-body>#child2>#products>div>div>p{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+#child2>h2{
+    color: orange;
+}
