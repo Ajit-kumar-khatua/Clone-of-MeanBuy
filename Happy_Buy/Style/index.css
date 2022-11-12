@@ -29,7 +29,7 @@ body{
     justify-content: space-between;
     height:auto;
 }
-#lower_menu>div>img{
+#lower_menu>div>a>img{
     height: 70px;
     width: 200px;
     background-color: white;
@@ -61,7 +61,7 @@ body{
     margin-top: 10px;
     justify-content: space-between;
 }
-#last>#image>img{
+#last>#image>a>img{
     height: 40px;
     width: 40px;
   margin-top: 10px;

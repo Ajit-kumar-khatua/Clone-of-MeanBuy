@@ -74,5 +74,8 @@ document.querySelector("#add-to-cart").addEventListener("click",function(){
         }
     }
     localStorage.setItem("cartProducts",JSON.stringify(cartArr))
-
+    document.querySelector(".cart-item").innerText=cartArr.length
 });
+
+let cart_number=JSON.parse(localStorage.getItem("cartProducts"))
+document.querySelector(".cart-item").innerText=cart_number.length
