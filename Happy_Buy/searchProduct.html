@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Page</title>
+    <title>Search Product</title>
     <script src="https://kit.fontawesome.com/3e90fa2a97.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./Style/index.css">
-    <link rel="stylesheet" href="./Style/productPage.css">
+    <link rel="stylesheet" href="./Style/serachProduct.css">
 </head>
 <body>
     <div id="navbar">
@@ -31,7 +30,7 @@
       <div id="navbar-child">
         <div id="lower_menu">
             <div id="first">
-               <a href="./index.html"><img src="./Style/Happy buy.png" alt=""></a> 
+                <a href="./index.html"><img src="./Style/Happy buy.png" alt=""></a>
             </div>
            <div id="last">
             <div id="last-one">
@@ -46,7 +45,7 @@
             <div id="last-two">
                 <a href="./login.html">LOGIN</a>
                  <span>/</span>
-                 <a href="">SIGNUP</a>
+                 <a href="./signup.html">SIGNUP</a>
                  <h2>Welcome Guest</h2>       
             </div>
             <div id="image">
@@ -160,34 +159,25 @@
         </div>
     </div>
 </div>
+    
+   <div id="search-body">
+         <div id="child1">
+            <P>FILTER</P>
+            <hr>
+            <h3>GENDER</h3>
+            <hr>
+            <h3>BRANDS</h3>
+            <hr>
+            <h3>COLORS</h3>
 
-    <div id="product-body">
-        <div id="child1">
+         </div>
+         <div id="child2">
+            <h2>Search Results</h2>
+            <div id="products"></div>
 
-        </div>
-        <div id="child2">
-              <h1></h1>
-              <span id="rating"></span>
-              <a id="review" href="#"></a>
-              <h2 id="price"></h2>
-              <p id="off"></p>
-              <p id="firstp"><i class="fa-solid fa-check"></i>CASH ON DELIVERY available on orders between ₹999 and ₹10000</p>
-              <p><i class="fa-solid fa-check"></i>Get upto 500 off with coupon code <a href="#">Prepaid</a></p>
-              <p><i class="fa-solid fa-check"></i>3 interest free Payments</p>
-              <p>Availability: <i>In Stock</i></p>
-              <hr>
-              <h4>1.Please Choose your Preferences</h4>
-              <!-- <span>Select Quantity :</span>
-              <button id="decrement">-</button>
-              <span id="quant">1</span>
-              <button id="increment">+</button>
-              <br> -->
-              <button id="add-to-cart">ADD TO CART</button>
-              <button id="buy">BUY NOW</button>
-        </div>
-    </div>
-
-<div id="footer">
+         </div>
+   </div>
+   <div id="footer">
     <div id="footer-child1">
         <div>
             <h2>OUR POLICIES</h2>
@@ -218,6 +208,10 @@
            <p>Signup</p>
         </div>
         <div class="last-footer-child">
+            <form>
+                <input type="text" placeholder="Your Email Address">
+                <button>Subscribe</button>
+            </form>
             <div>
                 <a href="https://www.instagram.com/">
                     <img src="https://freepngimg.com/save/122253-logo-instagram-free-download-png-hq/1032x1032" alt="insta" >
@@ -236,11 +230,12 @@
         </div>
 
     </div> 
-    <div id="footer-child-3">
-        <p>Prodigious Digital Solution © 2022</p>
-      </div>
- </div>  
-    
+    <hr>
+  <div id="footer-child-3">
+    <p>Prodigious Digital Solution © 2022</p>
+  </div>
+</div>
+
 </body>
 </html>
-<script src="./Script/product.js"></script>
+<script src="./Script/searchProduct.js"></script>

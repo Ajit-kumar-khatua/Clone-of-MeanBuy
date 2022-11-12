@@ -82,6 +82,8 @@ function deletecart(index){
     cartArr.splice(index,1)
     localStorage.setItem("cartProducts",JSON.stringify(cartArr))
     displayData(cartArr)
+    displayCheckout(cartArr)
+    document.querySelector(".cart-item").innerText=cartArr.length
 }
 
 function displayCheckout(data){
@@ -96,3 +98,6 @@ function displayCheckout(data){
     })
 }
 displayCheckout(cartArr)
+
+let cart_number=JSON.parse(localStorage.getItem("cartProducts"))
+document.querySelector(".cart-item").innerText=cart_number.length
