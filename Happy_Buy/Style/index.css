@@ -193,7 +193,7 @@ body{
 }
 #myCarousel{
     z-index: -2;
-    margin: 167px 20px 20px 20px;
+    margin: 167px 40px 20px 40px;
 }
 .glyphicon{
       color: orange;
@@ -216,7 +216,8 @@ body{
     grid-template-columns: repeat(4,1fr);
     grid-auto-rows: auto;
     gap:15px;
-    margin: 20px;
+    margin: 20px 40px 20px 40px;
+
     cursor: pointer;
 }
 #body-part img{
