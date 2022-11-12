@@ -217,6 +217,7 @@ body{
     grid-auto-rows: auto;
     gap:15px;
     margin: 20px;
+    cursor: pointer;
 }
 #body-part img{
     width: 100%;
