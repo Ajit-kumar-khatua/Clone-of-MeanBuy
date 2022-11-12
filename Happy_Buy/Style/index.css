@@ -38,9 +38,13 @@ body{
 }
 #lower_menu>div>input{
     height: 25px;
-    width: 300px;
+    width: 200px;
     margin-left: 40px;
     padding-left: 20px;
+   
+}
+#lower_menu>div>button{
+    height: 25px;
    
 }
 #last{

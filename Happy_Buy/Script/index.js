@@ -353,9 +353,7 @@ data.forEach(function(elem){
     document.querySelector("#fast-moving").append(div)
 
 
-})
-    
-    
+})   
 }
 
 displayData(moving_product)
@@ -493,3 +491,25 @@ displayData5(new_arrival)
 
 let cart_number=JSON.parse(localStorage.getItem("cartProducts"))
 document.querySelector(".cart-item").innerText=cart_number.length
+
+
+
+let totalArr=[...moving_product,...home_decor,...ballet_flats,...Keyboard,...new_arrival]
+localStorage.setItem("total-item",JSON.stringify(totalArr))
+
+
+    
+    document.querySelector("#search-btn").addEventListener("click",function(){
+        let x=document.querySelector("#search").value;
+        let newData=totalArr.filter(function(el){
+            if(el.category.toLowerCase()==x.toLowerCase()){
+                return el
+            }
+           
+        })
+         window.location.href="./searchProduct.html"
+        localStorage.setItem("searchProduct",JSON.stringify(newData))
+    })
+
+
+
