@@ -169,6 +169,8 @@
        }else{
           let obj={email,pwd}
           signupArr.push(obj)
+          alert("signup Sucessful")
+          window.location.href="./login.html"
           localStorage.setItem("signup",JSON.stringify(signupArr))
        }
     })

@@ -88,6 +88,12 @@ function deletecart(index){
 
 function displayCheckout(data){
     let total=0
+    if(data.length==0){
+        document.querySelector("#total").innerText="Total Items : "+0;
+        document.querySelector("#sub-total").innerText="Sub Total :"+0
+        document.querySelector("#cart").innerText="Cart Total :"+ 0;
+
+    }else{
     data.forEach(function(elem){
         document.querySelector("#total").innerText="Total Items : "+data.length;
         let price=Number(elem.quantity)*Number(elem.price)
@@ -96,6 +102,7 @@ function displayCheckout(data){
         document.querySelector("#sub-total").innerText="Sub Total : ₹"+total+".00"
         document.querySelector("#cart").innerText="Cart Total : ₹"+total+".00"
     })
+  }
 }
 displayCheckout(cartArr)
 

@@ -14,6 +14,7 @@ document.querySelector("form").addEventListener("submit",function(event){
     })
     if(flag==true){
         alert("Login Sucessful")
+        window.location.href="./index.html"
     }else{
         alert("Enter Correct Id and Password")
     }

@@ -490,7 +490,12 @@ function displayData5(data){
 displayData5(new_arrival)
 
 let cart_number=JSON.parse(localStorage.getItem("cartProducts"))
-document.querySelector(".cart-item").innerText=cart_number.length
+if(cart_number.length==0){
+    document.querySelector(".cart-item").innerText=0
+}else{
+    document.querySelector(".cart-item").innerText=cart_number.length
+}
+
 
 
 
