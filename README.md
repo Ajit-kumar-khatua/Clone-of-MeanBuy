@@ -25,5 +25,15 @@
 <h1>Screenshots</h1>
 
 <h2>Home Page</h2>
-<img src="./Happy_Buy/images/screenshots/Home Page.png" alt="">
+<img src="https://www.linkpicture.com/q/Home-Page_5.png" alt="">
+<h2>All Products Page</h2>
+<img src="https://www.linkpicture.com/q/All-products.png" alt="">
+<h2>Indivisual Product Page</h2>
+<img src="https://www.linkpicture.com/q/indivisual-product.png" alt="">
+<h2>Cart Page</h2>
+<img src="https://www.linkpicture.com/q/Cart.png" alt="">
+<h2>Payment Page</h2>
+<img src="https://www.linkpicture.com/q/Payment_1.png" alt="">
+<h2>Login Page</h2>
+<img src="https://www.linkpicture.com/q/Login_5.png" alt="">
 
