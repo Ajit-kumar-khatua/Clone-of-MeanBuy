@@ -14,12 +14,12 @@
 <ul>
 <li>User can see all Products</li>
 <li>Can See Indivisual Products</li>
-<li>User acn search any Product</li>
+<li>User can search any Product</li>
 <li>User can sort and filter the Products</li>
 <li>User able to add the product to Cart</li>
 <li>User can change the quantity of Product</li>
 <li>Can delete the product from cart</li>
-<li>After Payment Order sucessfully placed</li>
+<li>After Payment, Order sucessfully placed</li>
 </ul>
 
 <h1>Screenshots</h1>
