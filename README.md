@@ -22,6 +22,8 @@
 <li>After Payment Order sucessfully placed</li>
 </ul>
 
-<h2>Screenshots</h2>
+<h1>Screenshots</h1>
 
-   
+<h2>Home Page</h2>
+<img src="./Happy_Buy/images/screenshots/Home Page.png" alt="">
+
